@@ -49,7 +49,7 @@ public class CasoServiceImpl implements CasoService {
 
         System.out.println("--------------INICIO de la prueba aggregate -------------------------------");
         long inicio = System.currentTimeMillis();
-        List<SalesReport> byYear = aggregationByYear3(2000);
+        List<SalesReport> byYear = aggregationByYear3(2014);
         long fin = System.currentTimeMillis();
         long seconds = TimeUnit.MILLISECONDS.toSeconds(fin-inicio);
         System.out.println("Cantidad de registros devueltos.......:" + byYear.size());
