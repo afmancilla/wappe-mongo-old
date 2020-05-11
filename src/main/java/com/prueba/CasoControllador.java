@@ -14,9 +14,9 @@ public class CasoControllador {
     CasoService casoService;
 
 
-    @GetMapping("/agregate/{hasta}/{anno}")
-    public void agregate(@PathVariable("hasta") int hasta,@PathVariable("anno") int anno) throws IOException {
-        casoService.agregate(hasta,anno);
+    @GetMapping("/aggregate")
+    public void agregate() throws IOException {
+        casoService.agregate();
     }
 
 

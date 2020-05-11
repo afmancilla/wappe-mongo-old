@@ -2,7 +2,7 @@ package com.prueba;
 
 public interface CasoService {
 
-    void insertar(int hasta);
+    void agregate();
 
-    void agregate(int hasta,int anno);
+    void insertar(int hasta);
 }
